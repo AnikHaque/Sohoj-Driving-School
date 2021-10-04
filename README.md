@@ -1,4 +1,4 @@
-# Sohoj Driving School
+# <h1>Sohoj Driving School</h1>
 
  [Sohoj Driving School](https://sohoj-driving.netlify.app/).
 
