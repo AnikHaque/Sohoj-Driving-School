@@ -1,0 +1,38 @@
+.homepage{
+    background-image: url("http://fastwpdemo.com/newwp/drivega/wp-content/uploads/2021/06/image-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-heading{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    padding-top: 130px;
+    font-weight: bold;
+}
+b{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-left: 500px;
+    font-family: poppins;
+}
+.button-enroll{
+    margin-left: 500px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.button-learn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}

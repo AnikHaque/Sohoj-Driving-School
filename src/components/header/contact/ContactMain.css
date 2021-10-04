@@ -1,0 +1,13 @@
+.contact-image{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.card-des{
+    text-align: center;
+    color:gray
+}

@@ -1,0 +1,13 @@
+.contact-banner{
+    background-image: url("http://fastwpdemo.com/newwp/drivega/wp-content/uploads/2021/06/bg-8.jpg");
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+}
+.contact-title{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
