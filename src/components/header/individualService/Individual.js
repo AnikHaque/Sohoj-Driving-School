@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardGroup, Col, Row } from 'react-bootstrap';
-
+import './Individual.css'
 const Individual = (props) => {
     const {name,Instructor,img,price} = props.service
     return (

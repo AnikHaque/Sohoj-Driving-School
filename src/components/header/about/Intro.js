@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Intro.css'
 const Intro = () => {
     return (
-        <div>
+        <div className="intro">
             <h1 className="intro-heading">Company Overview</h1>
             <Container fluid="md">
   <Row>

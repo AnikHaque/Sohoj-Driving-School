@@ -4,7 +4,8 @@ import Footer from '../footer/Footer';
 import './Tutor.css'
 const Tutor = () => {
     return (
-        <div>
+<div>
+  <div className="tutor">
 <h1 className="tutor-heading">Who will make <br></br> You Expert in Driving </h1>
 
 <Container fluid className="bg-tutor">
@@ -96,7 +97,7 @@ const Tutor = () => {
   </Row>
 </Container>
  
-
+</div>
   
 <Footer></Footer>
         </div>

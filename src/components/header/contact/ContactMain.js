@@ -3,7 +3,7 @@ import { Card, CardGroup } from 'react-bootstrap';
 import './ContactMain.css'
 const ContactMain = () => {
     return (
-        <div>
+        <div className="contact">
             <CardGroup>
   <Card>
     <Card.Img variant="top" className="contact-image" src="https://png.pngitem.com/pimgs/s/146-1466755_nearby-transparent-background-address-icon-hd-png-download.png" />
