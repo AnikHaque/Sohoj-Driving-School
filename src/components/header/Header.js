@@ -4,7 +4,24 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-
+<div className="bg-dark p-4">
+<div class="container">
+  <div class="row">
+    <div class="col-3 text-white">
+      <h5><i class="fas fa-map-marker-alt"></i> Mirpur 2 no,Dhaka</h5>
+    </div>
+    <div class="col-3 text-white">
+     <h5><i class="fas fa-phone"></i> +880 1814803281</h5>
+    </div>
+    <div class="col-3 text-white">
+    <i class="far fa-envelope"></i> ekramul15-811@diu.edu.bd
+    </div>
+    <div class="col-3 text-white">
+    <i class="fas fa-clock"></i> 9AM to 7PM/7days
+    </div>
+  </div>
+</div>
+</div>
         <nav className="navigation">
         <Link to="/home" className="link">
         <i class="fas fa-home"></i> Home
