@@ -6,4 +6,13 @@
 .image{
     width: 400px;
     height: 400px;
+    
+}
+.bg-tutor{
+    background-color: lavender;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tutor-details{
+    text-align: center;
 }

@@ -4,21 +4,22 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
+
         <nav className="navigation">
         <Link to="/home" className="link">
-        Home
+        <i class="fas fa-home"></i> Home
         </Link>
         <Link to="/about" className="link">
-        About
+        <i class="fas fa-address-card"></i> About
         </Link>
         <Link to="/services" className="link">
-            Services
+        <i class="fas fa-car"></i> Services
         </Link>
         <Link to="/tutors" className="link">
-        Our Tutors
+        <i class="fas fa-male"></i> Our Tutors
         </Link>
         <Link to="/contact" className="link">
-            Contact
+        <i class="fas fa-envelope-square"></i> Contact
         </Link>
         
             </nav>

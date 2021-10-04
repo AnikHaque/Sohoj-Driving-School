@@ -8,6 +8,7 @@ import About from './components/header/about/About';
 import Service from './components/header/services/Service';
 import Tutor from './components/header/tutors/Tutor';
 import Contact from './components/header/contact/Contact';
+import NotFound from './components/header/not found/NotFound';
 
 
 function App() {
@@ -34,8 +35,12 @@ function App() {
 <Route exact path ="/contact">
   <Contact></Contact>
 </Route>
+<Route  path="*">
+  <NotFound></NotFound>
+</Route>
 
       </Switch>
+    
       </Router>
     </div>
   );
