@@ -7,6 +7,8 @@ const Header = () => {
 <div className="bg-dark p-4">
 <div class="container">
   <div class="row">
+  
+
     <div class="col-3 text-white">
       <h5><i class="fas fa-map-marker-alt"></i> Mirpur 2 no,Dhaka</h5>
     </div>
@@ -22,7 +24,9 @@ const Header = () => {
   </div>
 </div>
 </div>
-        <nav className="navigation">
+        <nav>
+          <div className="navigation">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSvWDkuYNZ2vESiidQFD3PMGUnHRctUGZ-1w&usqp=CAU" className="img-fluid logo"></img>
         <Link to="/home" className="link">
         <i class="fas fa-home"></i> Home
         </Link>
@@ -38,7 +42,7 @@ const Header = () => {
         <Link to="/contact" className="link">
         <i class="fas fa-envelope-square"></i> Contact
         </Link>
-        
+</div>
             </nav>
         </div>
     );
