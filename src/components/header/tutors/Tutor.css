@@ -1,7 +1,9 @@
 .tutor-heading{
     font-weight: bold;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
+    margin-bottom: 70px;
+    margin-top: 100px;
 }
 .image{
     width: 400px;
@@ -9,7 +11,9 @@
     
 }
 .bg-tutor{
-    background-color: lavender;
+    background-color:#F8F9F9;
+    
+    
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -18,4 +22,10 @@
 }
 .tutor{
     margin-bottom: 100px;
+}
+.tutor-banner{
+    background-image: url("https://png.pngitem.com/pimgs/s/336-3367926_sitting-hd-png-download.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
 }

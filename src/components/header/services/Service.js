@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Footer from '../footer/Footer';
 import Individual from '../individualService/Individual';
-
+import './Service.css';
 const Service = () => {
 const [services, setServices] =useState([])
 useEffect(()=>{
@@ -12,7 +12,7 @@ fetch('/driving.JSON')
 
 },[])
     return (
-        <div>
+        <div className="servicess">
 <div class="container">
   <div class="row">
   <div class="row row-cols-1 row-cols-md-3 g-4">

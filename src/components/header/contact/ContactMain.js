@@ -49,6 +49,27 @@ const ContactMain = () => {
     </Card.Footer>
   </Card>
 </CardGroup>
+
+<div className="bg-dark form">
+<div class="mb-3 w-75">
+  <label for="exampleFormControlInput1" class="form-label text-white fw-bold">Your Name</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+</div>
+<div class="mb-3 w-75">
+  <label for="exampleFormControlInput1" class="form-label text-white fw-bold">Your UserName</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+</div>
+<div class="mb-3 w-75">
+  <label for="exampleFormControlInput1" class="form-label text-white fw-bold">Your Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+</div>
+<div class="mb-3 w-75">
+  <label for="exampleFormControlTextarea1" class="form-label text-white fw-bold">Your Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<button type="button" class="btn btn-secondary px-5 pe-5">Submit</button>
+
+</div>
         </div>
     );
 };

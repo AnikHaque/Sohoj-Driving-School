@@ -6,8 +6,10 @@
     font-size: 80px;
 }
 .description{
-    margin-top: 140px;
+    
     margin-bottom: 100px;
+    background-color: white;
+    padding:50px;
 }
 .short-details{
     font-size: 18px;

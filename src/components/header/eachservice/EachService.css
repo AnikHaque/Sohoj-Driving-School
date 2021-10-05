@@ -1,4 +1,9 @@
 .bg-eachservice{
-    background-color: #D4EFDF;
+    
     padding: 50px;
+}
+.servicecard{
+    background-color: #F0F3F4;
+ box-shadow: 10px 10px 50px gray;
+
 }

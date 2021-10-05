@@ -6,7 +6,7 @@ const EachService = (props) => {
         <div className="bg-eachservice">
             
   <div class="col">
-    <div class="card h-100">
+    <div class="card service-card  h-100">
       <img src={img} class="card-img-top p-2" alt="..."></img>
       <div class="card-body">
         <h5 class="card-title">{name}</h5>
