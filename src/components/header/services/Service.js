@@ -17,7 +17,12 @@ fetch('/driving.JSON')
   <div class="row">
   <div class="row row-cols-1 row-cols-md-3 g-4">
     {
-    services.map(service=><Individual service={service}></Individual>)
+    services.map(service=><Individual 
+      service={service}
+      Key={service.key}
+    >
+
+    </Individual>)
     }
     </div>
   </div>

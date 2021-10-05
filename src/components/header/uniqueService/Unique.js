@@ -17,7 +17,12 @@ const Unique = () => {
 
            <div class="row row-cols-1 row-cols-md-3 g-4">
     {
-    uniques.map(unique=><EachService unique={unique}></EachService> )
+    uniques.map(unique=><EachService 
+        unique={unique}
+        key={unique.key}
+        >
+
+    </EachService> )
     }
     </div>   
      
